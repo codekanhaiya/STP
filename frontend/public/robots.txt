@@ -1,0 +1,10 @@
+# robots.txt — This file tells search engine bots what to index
+
+User-agent: *
+Disallow: /private/       # Disallow indexing of private routes
+
+# Allow everything else
+Allow: /
+
+# Sitemap (if any)
+# Sitemap: https://yourdomain.com/sitemap.xml

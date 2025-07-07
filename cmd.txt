@@ -1,0 +1,291 @@
+PS D:\Zerodha_Clone> npx create-react-app frontend
+Need to install the following packages:
+create-react-app@5.1.0
+Ok to proceed? (y) y
+
+create-react-app is deprecated.
+
+You can find a list of up-to-date React frameworks on react.dev
+For more info see:https://react.dev/link/cra
+
+This error message will only be shown once per install.
+
+
+Creating a new React app in D:\Zerodha_Clone\frontend.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+added 1325 packages in 1m
+
+268 packages are looking for funding
+  run `npm fund` for details
+
+Initialized a git repository.
+
+Installing template dependencies using npm...
+
+added 18 packages, and changed 1 package in 6s
+
+268 packages are looking for funding
+  run `npm fund` for details
+Removing template package using npm...
+
+
+removed 1 package, and audited 1343 packages in 4s
+
+268 packages are looking for funding
+  run `npm fund` for details
+
+12 vulnerabilities (6 moderate, 6 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+Created git commit.
+
+Success! Created frontend at D:\Zerodha_Clone\frontend
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd frontend
+  npm start
+
+Happy hacking!
+npm notice
+npm notice New major version of npm available! 10.9.2 -> 11.1.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.1.0
+npm notice To update run: npm install -g npm@11.1.0
+Compiled successfully!
+
+You can now view frontend in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.137.1:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+=====================================================================================================================================
+PS D:\Zerodha_Clone> cd frontend
+PS D:\Zerodha_Clone\frontend> git init
+Reinitialized existing Git repository in D:/Zerodha_Clone/frontend/.git/
+PS D:\Zerodha_Clone\frontend> git add .
+warning: in the working copy of 'public/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/index.js', LF will be replaced by CRLF the next time Git touches it
+PS D:\Zerodha_Clone\frontend> git commit -m "Initial Setup of Zerodha_Clone Project."
+[main be67062] Initial Setup of Zerodha_Clone Project.
+ 12 files changed, 18 insertions(+), 206 deletions(-)
+ delete mode 100644 README.md
+ delete mode 100644 public/favicon.ico
+ delete mode 100644 public/logo192.png
+ delete mode 100644 public/logo512.png
+ delete mode 100644 src/App.css
+ delete mode 100644 src/App.js
+ delete mode 100644 src/App.test.js
+ delete mode 100644 src/logo.svg
+ delete mode 100644 src/reportWebVitals.js
+ delete mode 100644 src/setupTests.js
+PS D:\Zerodha_Clone\frontend> git checkout -b project-structure
+Switched to a new branch 'project-structure'
+PS D:\Zerodha_Clone\frontend> 
+=====================================================================================================================================
+PS D:\Zerodha_Clone\frontend> git add .
+PS D:\Zerodha_Clone\frontend> git commit -m "frontend component structure setup"
+[project-structure bd50db7] frontend component structure setup
+ 23 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 src/landing_page/Footer.js
+ create mode 100644 src/landing_page/OpenAccount.js
+ create mode 100644 src/landing_page/about/AboutPage.js
+ create mode 100644 src/landing_page/about/Hero.js
+ create mode 100644 src/landing_page/about/Team.js
+ create mode 100644 src/landing_page/home/Awards.js
+ create mode 100644 src/landing_page/home/Education.js
+ create mode 100644 src/landing_page/home/Hero.js
+ create mode 100644 src/landing_page/home/HomePage.js
+ create mode 100644 src/landing_page/home/Navbar.js
+ create mode 100644 src/landing_page/home/Pricing.js
+ create mode 100644 src/landing_page/home/Stats.js
+ create mode 100644 src/landing_page/pricing/Brojkerage.js
+ create mode 100644 src/landing_page/pricing/Hero.js
+ create mode 100644 src/landing_page/pricing/PricingPage.js
+ create mode 100644 src/landing_page/products/Hero.js
+ create mode 100644 src/landing_page/products/LeftSection.js
+ create mode 100644 src/landing_page/products/RightSection.js
+ create mode 100644 src/landing_page/products/Universe.js
+ create mode 100644 src/landing_page/signup/Signup.js
+ create mode 100644 src/landing_page/support/CreateTicket.js
+ create mode 100644 src/landing_page/support/Hero.js
+ create mode 100644 src/landing_page/support/SupportPage.js
+PS D:\Zerodha_Clone\frontend> 
+=====================================================================================================================================
+PS D:\Zerodha_Clone\frontend> git checkout -b home-component
+Switched to a new branch 'home-component'
+PS D:\Zerodha_Clone\frontend> 
+=====================================================================================================================================
+Simple React Snippets -- extension
+Prettier - Code formatter -- extension
+=====================================================================================================================================
+PS D:\Zerodha_Clone\frontend> npm i react-router-dom
+
+added 6 packages, and audited 1349 packages in 6s
+
+268 packages are looking for funding
+  run `npm fund` for details
+
+12 vulnerabilities (6 moderate, 6 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS D:\Zerodha_Clone\frontend> 
+=====================================================================================================================================
+PS D:\Zerodha_Clone\frontend> git add .
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/index.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/media/images/sensibullLogo.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/media/images/tijori.svg', LF will be replaced by CRLF the next time Git touches it
+PS D:\Zerodha_Clone\frontend> git commit -m "frontend component structure only UI setup complete except SIGNUP"
+[home-component b227e74] frontend component structure only UI setup complete except SIGNUP
+ 58 files changed, 1481 insertions(+), 13 deletions(-)
+ create mode 100644 public/media/images/appstoreBadge.svg
+ create mode 100644 public/media/images/coin.png
+ create mode 100644 public/media/images/console.png
+ create mode 100644 public/media/images/dittoLogo.png
+ create mode 100644 public/media/images/ecosystem.png
+ create mode 100644 public/media/images/education.svg
+ create mode 100644 public/media/images/goldenpiLogo.png
+ create mode 100644 public/media/images/googlePlayBadge.svg
+ create mode 100644 public/media/images/homeHero.png
+ create mode 100644 public/media/images/intradayTrades.svg
+ create mode 100644 public/media/images/kite.png
+ create mode 100644 public/media/images/kiteconnect.png
+ create mode 100644 public/media/images/largestBroker.svg
+ create mode 100644 public/media/images/logo.svg
+ create mode 100644 public/media/images/nithinKamath.jpg
+ create mode 100644 public/media/images/pressLogos.png
+ create mode 100644 public/media/images/pricing0.svg
+ create mode 100644 public/media/images/pricingEquity.svg
+ create mode 100644 public/media/images/pricingMF.svg
+ create mode 100644 public/media/images/sensibullLogo.svg
+ create mode 100644 public/media/images/signup.png
+ create mode 100644 public/media/images/smallcaseLogo.png
+ create mode 100644 public/media/images/streakLogo.png
+ create mode 100644 public/media/images/tijori.svg
+ create mode 100644 public/media/images/varsity.png
+ create mode 100644 public/media/images/zerodhaFundhouse.png
+ create mode 100644 src/landing_page/Navbar.js
+ create mode 100644 src/landing_page/NotFound.js
+ delete mode 100644 src/landing_page/home/Navbar.js
+ delete mode 100644 src/landing_page/pricing/Brojkerage.js
+ create mode 100644 src/landing_page/pricing/Brokerage.js
+ create mode 100644 src/landing_page/products/ProductPage.js
+PS D:\Zerodha_Clone\frontend> 
+=====================================================================================================================================
+PS D:\Zerodha_Clone\backend> npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (backend)
+version: (1.0.0)                                                                                                                                                            
+description:                                                                                                                                                                
+entry point: (index.js)                                                                                                                                                     
+test command:                                                                                                                                                               
+git repository:                                                                                                                                                             
+keywords:                                                                                                                                                                   
+author:                                                                                                                                                                     
+license: (ISC)                                                                                                                                                              
+type: (commonjs)                                                                                                                                                            
+About to write to D:\Zerodha_Clone\backend\package.json:
+
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
+
+
+Is this OK? (yes)
+
+PS D:\Zerodha_Clone\backend> npm i -D nodemon
+
+added 29 packages, and audited 30 packages in 2s
+
+4 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS D:\Zerodha_Clone\backend> npm i express body-parser cors dotenv mongoose passport passport-local-mongoose
+
+added 101 packages, and audited 131 packages in 7s
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS D:\Zerodha_Clone\backend> touch index.js
+PS D:\Zerodha_Clone\backend> 
+--------- Due to "scripts": {
+    "start": "nodemon index.js"
+  },
+PS D:\Zerodha_Clone\backend> nodemon index.js
+[nodemon] 3.1.9
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node index.js`
+Zerodha server started!
+PS D:\Zerodha_Clone\backend> npm start
+
+> backend@1.0.0 start
+> nodemon index.js
+
+[nodemon] 3.1.9
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node index.js`
+Zerodha server started!
+=====================================================================================================================================
+Thunder Client : Extension
+              Thunder Client is a lightweight Rest API Client Extension for VS Code, 
+              hand-crafted by Ranga Vadhineni with a focus on simplicity, clean design and local storage.
+=====================================================================================================================================
+Best images link: https://undraw.co/illustrations
+=====================================================================================================================================
